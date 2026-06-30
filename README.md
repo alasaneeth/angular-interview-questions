@@ -1,1 +1,1 @@
-# angular-interview-questions
+# software-engineer-interview-guidance
