@@ -312,39 +312,6 @@ Angular automatically provides the instance.
                                             │
                                        Angular Injector
 ```
-
----
-
-## Interview Questions & Answers
-
-**Q1. What is Angular Architecture?**
-
-Angular architecture is based on a component-based structure where an application is built using Modules (or Standalone Components), Components, Templates, Metadata, Services, and Dependency Injection. Each part has a specific responsibility, making applications modular, maintainable, and scalable.
-
-**Q2. What is a Module in Angular?**
-
-A Module groups related components, directives, pipes, and services into a single unit. It organizes the application and manages imports, declarations, providers, and bootstrap configuration. In newer Angular versions, Standalone Components can reduce or eliminate the need for NgModules.
-
-**Q3. What is a Component?**
-
-A Component is the fundamental UI building block in Angular. It consists of a TypeScript class for logic, an HTML template for the view, and CSS for styling.
-
-**Q4. What is a Template?**
-
-A Template defines the user interface of a component. It uses HTML enhanced with Angular features like interpolation, property binding, event binding, two-way binding, and structural directives.
-
-**Q5. What is Metadata?**
-
-Metadata uses decorators such as `@Component`, `@Injectable`, and `@NgModule` to tell Angular how to process a class and configure its behavior.
-
-**Q6. What is a Service?**
-
-A Service contains reusable business logic or data access code that can be shared among multiple components, improving code reuse and maintainability.
-
-**Q7. What is Dependency Injection?**
-
-Dependency Injection is a design pattern where Angular automatically creates and injects required dependencies (such as services) into components, reducing coupling and improving testability.
-
 ---
 
 ## Quick Revision Table
